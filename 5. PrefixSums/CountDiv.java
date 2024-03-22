@@ -28,7 +28,7 @@ public class CountDiv {
         if(k > b) return 0;
         int first = -1;
         int cnt = 0;
-        for(int i = 0; i <= b; i++){
+        for(int i = a; i <= b; i++){
             if(i % k == 0){
                 first = i;
                 break;
