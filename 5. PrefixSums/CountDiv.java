@@ -1,4 +1,3 @@
-package PrefixSums;
 // Write a function:
 
 // class Solution { public int solution(int A, int B, int K); }
@@ -25,19 +24,6 @@ public class CountDiv {
         sc.close();
     }
     public static int solution(int a, int b, int k){
-        if(k > b) return 0;
-        int first = -1;
-        int cnt = 0;
-        for(int i = a; i <= b; i++){
-            if(i % k == 0){
-                first = i;
-                break;
-            }
-        }
-        while(first < b){
-            cnt++;
-            first += k;
-        }
-        return cnt;
+        return b/k - a/k + (a % k == 0? 1: 0);
     }
 }
