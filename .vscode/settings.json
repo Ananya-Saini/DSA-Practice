@@ -1,10 +1,11 @@
 {
     "java.project.sourcePaths": [
+        "6. Sorting",
         "5. PrefixSums",
         "4. Counting Elements",
         "3. Time Complexity",
         "2. Arrays",
         "1. Iterations",
-        "6. Sorting"
+        "7. Stacks and Queues"
     ]
 }
